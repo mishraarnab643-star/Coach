@@ -837,4 +837,69 @@ body {
     .social-icons { justify-content: center; }
     .hero h1 { font-size: 2.5rem; }
   }
+/* =========================================
+   Legal & Terms Pages (terms.html)
+   ========================================= */
+.legal-section {
+    padding-top: 150px; /* Accounts for the fixed navbar */
+    min-height: 100vh;
+}
+
+.legal-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.legal-content h3 {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.legal-content h3:first-child {
+    margin-top: 0;
+}
+
+.legal-content p {
+    color: var(--text-light);
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.legal-content ul {
+    color: var(--text-light);
+    line-height: 1.8;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.legal-content li {
+    margin-bottom: 10px;
+}
+
+.legal-contact-info {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid var(--glass-border);
+    margin-top: 20px;
+}
+
+.legal-contact-info p {
+    margin-bottom: 8px;
+    color: var(--text-dark);
+}
+
+.legal-contact-info p:last-child {
+    margin-bottom: 0;
+}
+
+/* Mobile responsiveness for legal page */
+@media (max-width: 768px) {
+    .legal-container {
+        padding: 30px 20px;
+    }
+}
 
